@@ -43,6 +43,9 @@
 #define GYRO_1_SPI_INSTANCE    SPI1
 #define GYRO_1_ALIGN      CW180_DEG
 
+#define I2C2_SCL PB10 // SCL pad
+#define I2C2_SDA PB3 // SDA pad
+
 #define USE_EXTI
 #define USE_GYRO_EXTI
 #define GYRO_1_EXTI_PIN         PB3
